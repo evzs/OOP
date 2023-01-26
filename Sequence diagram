@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-26T22:11:14.267Z" agent="5.0 (Windows)" etag="FQv9F8x3GwncAG1Xr1nL" version="20.8.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-26T22:11:19.322Z" agent="5.0 (Windows)" etag="_HIOLF5SPzUJENyG_yhW" version="20.8.11" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1466" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -157,7 +157,7 @@
           <mxGeometry x="165" y="130" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vbs4A7F9oAXVmdog293j-11" value="Si le montant demande est au desus du solde, il se verra refuse le montant et sera invite a en choisir un autre" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="560" y="323" width="200" height="107" as="geometry" />
+          <mxGeometry x="560" y="323" width="210" height="147" as="geometry" />
         </mxCell>
         <mxCell id="vbs4A7F9oAXVmdog293j-12" value="Si le code tape est incorrect, le client est invente a reessayer jusau&#39;a une troisieme fois, s&#39;il arrive a terme des codes errones, la carte peut se fairer avaler ou bien il peut demander le retrait de sa carte avant" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-130" y="190" width="240" height="180" as="geometry" />
