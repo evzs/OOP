@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-01-26T10:51:09.994Z" agent="5.0 (Windows)" etag="4cnI-0dbmrAm-A-WdW99" version="20.8.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-26T11:01:08.667Z" agent="5.0 (Windows)" etag="FPpX94qbspDRx-oObgeZ" version="20.8.11" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="350" dy="170" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1031" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="&lt;&lt;acteur&gt;&gt;&#xa;:Client" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="80" width="100" height="300" as="geometry" />
+          <mxGeometry x="120" y="80" width="100" height="510" as="geometry" />
         </mxCell>
         <mxCell id="-TXKbHQG7Uqv-fh_lvxh-11" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
           <mxGeometry x="45" y="108" width="10" height="40" as="geometry" />
@@ -13,8 +13,14 @@
         <mxCell id="-TXKbHQG7Uqv-fh_lvxh-33" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
           <mxGeometry x="45" y="234" width="10" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="-TXKbHQG7Uqv-fh_lvxh-50" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry x="45" y="370" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-TXKbHQG7Uqv-fh_lvxh-49" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry x="45" y="440" width="10" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value=":DistributeurBillet" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="300" y="80" width="100" height="310" as="geometry" />
+          <mxGeometry x="300" y="80" width="100" height="510" as="geometry" />
         </mxCell>
         <mxCell id="-TXKbHQG7Uqv-fh_lvxh-22" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
           <mxGeometry x="45" y="80" width="10" height="30" as="geometry" />
@@ -28,12 +34,28 @@
         <mxCell id="-TXKbHQG7Uqv-fh_lvxh-34" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
           <mxGeometry x="45" y="273" width="10" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="introduction carte" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;exitX=0.506;exitY=0.268;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
-          <mxGeometry x="-0.0035" relative="1" as="geometry">
-            <mxPoint x="175" y="160.0000000000001" as="sourcePoint" />
-            <mxPoint x="345" y="160.0000000000001" as="targetPoint" />
+        <mxCell id="-TXKbHQG7Uqv-fh_lvxh-38" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry x="45" y="340" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-TXKbHQG7Uqv-fh_lvxh-42" value="recuperation carte" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.506;exitY=0.268;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.047;entryY=0.073;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry x="-0.0062" relative="1" as="geometry">
+            <mxPoint x="-126.47" y="410.21" as="sourcePoint" />
+            <mxPoint x="44" y="409.99999999999994" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="-TXKbHQG7Uqv-fh_lvxh-45" value="distribution billets et ejection ticket" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1.1;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.78;exitY=1.02;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry x="-0.0019" relative="1" as="geometry">
+            <mxPoint x="48" y="440.9999999999999" as="sourcePoint" />
+            <mxPoint x="-128.79999999999995" y="441.4000000000001" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-TXKbHQG7Uqv-fh_lvxh-48" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry x="45" y="410" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-TXKbHQG7Uqv-fh_lvxh-51" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry x="45" y="480" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-9" value="demande code" style="verticalAlign=bottom;endArrow=block;entryX=1.006;entryY=0.058;shadow=0;strokeWidth=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="-TXKbHQG7Uqv-fh_lvxh-11" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -42,28 +64,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-TXKbHQG7Uqv-fh_lvxh-3" value="&lt;&lt;acteur&gt;&gt;&#xa;:GroupBanque" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="471" y="80" width="100" height="300" as="geometry" />
+          <mxGeometry x="471" y="80" width="100" height="510" as="geometry" />
         </mxCell>
         <mxCell id="-TXKbHQG7Uqv-fh_lvxh-27" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="-TXKbHQG7Uqv-fh_lvxh-3">
           <mxGeometry x="45" y="164" width="10" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="-TXKbHQG7Uqv-fh_lvxh-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="150" width="10" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="-TXKbHQG7Uqv-fh_lvxh-7" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="160" width="10" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="-TXKbHQG7Uqv-fh_lvxh-8" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="170" width="10" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="-TXKbHQG7Uqv-fh_lvxh-9" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="180" width="10" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="-TXKbHQG7Uqv-fh_lvxh-10" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="190" width="10" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="-TXKbHQG7Uqv-fh_lvxh-12" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="270" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-TXKbHQG7Uqv-fh_lvxh-18" value="demande autorisation" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=-0.08;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="-TXKbHQG7Uqv-fh_lvxh-27">
           <mxGeometry x="-0.0035" relative="1" as="geometry">
@@ -99,7 +103,35 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-TXKbHQG7Uqv-fh_lvxh-36" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="165" y="380" width="10" height="40" as="geometry" />
+          <mxGeometry x="165" y="383" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-TXKbHQG7Uqv-fh_lvxh-37" value="demande ticket" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1.1;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.78;exitY=1.02;exitDx=0;exitDy=0;exitPerimeter=0;fontStyle=0" edge="1" parent="1" source="-TXKbHQG7Uqv-fh_lvxh-34" target="-TXKbHQG7Uqv-fh_lvxh-36">
+          <mxGeometry x="-0.0019" relative="1" as="geometry">
+            <mxPoint x="340" y="384" as="sourcePoint" />
+            <mxPoint x="180" y="380" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-TXKbHQG7Uqv-fh_lvxh-40" value="ticket demande" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.506;exitY=0.268;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.047;entryY=0.073;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="-TXKbHQG7Uqv-fh_lvxh-38">
+          <mxGeometry x="-0.0062" relative="1" as="geometry">
+            <mxPoint x="174.99999999999991" y="422.4" as="sourcePoint" />
+            <mxPoint x="340" y="422" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-TXKbHQG7Uqv-fh_lvxh-44" value="ejection carte" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1.1;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.78;exitY=1.02;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0019" relative="1" as="geometry">
+            <mxPoint x="345" y="449.9999999999999" as="sourcePoint" />
+            <mxPoint x="168.20000000000005" y="450.4000000000001" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-TXKbHQG7Uqv-fh_lvxh-46" value="recuperation billets et ticket" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.506;exitY=0.268;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.047;entryY=0.073;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0062" relative="1" as="geometry">
+            <mxPoint x="176.99999999999997" y="560.21" as="sourcePoint" />
+            <mxPoint x="347.47" y="560" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
